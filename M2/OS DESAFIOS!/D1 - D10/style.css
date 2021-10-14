@@ -78,11 +78,32 @@ main {
 
 main h1 {
     font-family: var(--fonte-android);
-    color: var(--cor3);
+    color: var(--cor5);
 }
 
 main h2 {
+    background-image: linear-gradient(to right, var(--cor1), transparent);
     font-family: var(--fonte-android);
+    color: var(--cor4);
+    padding: 7px;
+    font-size: 1.4em;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.9em;
+}
+
+main a {
+    font-weight: bold;
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+main strong {
+    color: var(--cor4);
 }
 
 footer {
@@ -95,6 +116,11 @@ nav a:hover {
     background-color: var(--cor2);
     color: var(--cor4);
     border-radius: 5px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
 }
 
 .pq {

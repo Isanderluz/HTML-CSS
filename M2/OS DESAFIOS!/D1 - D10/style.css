@@ -96,10 +96,19 @@ main p {
     line-height: 1.9em;
 }
 
+img {
+    margin: auto;
+}
+
 main a {
     font-weight: bold;
     color: var(--cor5);
     text-decoration: none;
+}
+
+picture {
+    min-width: 210px;
+    margin: auto;
 }
 
 main strong {

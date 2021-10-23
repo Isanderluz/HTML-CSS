@@ -96,9 +96,7 @@ main p {
     line-height: 1.9em;
 }
 
-img {
-    margin: auto;
-}
+
 
 main a {
     font-weight: bold;
@@ -163,6 +161,11 @@ main a:hover {
 .pq {
     max-width: 340px;
     display: block;
+    margin: auto;
+}
+
+.ic {
+    text-align: center;
     margin: auto;
 }
 
